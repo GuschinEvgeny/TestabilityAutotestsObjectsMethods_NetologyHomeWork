@@ -1,7 +1,7 @@
 public class BonusMilesService {
-    public int calculate ( int price ) {
-        byte bonus_mile = 20;
-        int result = price / bonus_mile;
-    return result ;
+    public int calculate(int price) {
+        byte bonusMile = 20;
+        int result = price / bonusMile;
+        return result;
     }
 }
